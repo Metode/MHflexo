@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-07_2356",
+    "name": "MediaHjelp",
     "currentPage": "index.html",
     "theme": {
       "name": "appamp",
@@ -50,9 +50,9 @@
     "siteUrl": "http://mediahjelp.no",
     "sitemapSwitcherAuto": "on",
     "PWA": {
-      "enabled": false,
+      "enabled": true,
       "name": "mediahjelp",
-      "icon": "@ADDONS_PATH@/pwa-builder/assets/icons/512x512.png",
+      "icon": "@PROJECT_PATH@/assets/images/media-hjelp-logo-26.svg",
       "themeColor": "#175c94"
     },
     "uniqCompNum": 97,
@@ -61,9 +61,26 @@
     "imageResize": true,
     "favicon": false,
     "cssOptimize": false,
-    "cookiesAlert": false,
-    "gdpr": false,
-    "pwa-switcher": false
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "pwa-switcher": true,
+    "canonical-url": false
   },
   "pages": {
     "index.html": {
